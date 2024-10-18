@@ -1,0 +1,108 @@
+/* Print-specific styles */
+@media print {
+    .cv main {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 1200px; /* Optional: Limit the width for larger screens */
+        margin: 0;
+        padding: 0px;
+        gap: 0px; /* Space between left and right sections */
+    }
+
+    li {
+        margin-left: -20px;
+    }
+
+    li, p {
+        font-size: 0.8rem;
+    }
+    
+    h2 {
+        font-size: 0.9rem;
+        margin-bottom: -1rem;
+        margin-top: 0rem;
+    }
+    
+    #left h2 {
+        margin-bottom: -1rem;
+        margin-top: 0rem;
+    }
+
+    h1 {
+        font-size: 1rem;
+    }
+
+    section{
+        margin-bottom: -0.5rem;
+    }
+
+    body {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+        background-color: #fff;
+    }
+
+    a, a:visited, a:hover, a:active {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    #print, #btnPrint {
+        display: none;
+    }
+
+    #me img {
+        max-width: 8rem;
+    }
+
+    #left {
+        flex-grow: 1;
+        flex-basis: 25%;
+        background-color: #dff2ff;
+        padding: 1rem;
+        box-shadow: none;
+        height: fit-content;
+    }
+    
+    #left > .has_border {
+        border-top: 1px solid;
+    }
+
+    #right h1 {
+        margin: 0;
+    }
+
+    #right {
+        flex-grow: 1;
+        flex-basis: 75%;
+        background-color: #fff;
+        padding: 1rem;
+        margin-left: 0%;
+        box-shadow: none;
+        height: fit-content;
+    }
+
+    .no-print {
+        display: none;
+    }
+
+    .imageBeforeText {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: -0.5rem;
+    margin-top: -1rem;
+    }
+
+    .icon {
+        max-width: 1rem;
+        max-height: 1rem;
+        margin-right: 0.5rem;
+    }
+
+    #icons {
+        margin-top: 0.5rem;
+    }
+}

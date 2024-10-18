@@ -1,0 +1,54 @@
+/* css/project.css */
+
+.apparition {
+    display: flex;                /* Utilisation de flexbox pour l'alignement */
+    flex-direction: column;       /* Alignement vertical */
+    align-items: center;          /* Centrer horizontalement */
+    margin: 20px;                /* Marges autour du composant */
+}
+
+.project{
+    /* Espacement intérieur */
+    border: 1px solid #ddd;      /* Bordure légère pour le contenu */
+    border-radius: 10px;         /* Coins arrondis pour le conteneur */
+    background-color: #f9f9f9;   /* Couleur de fond légère */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre douce pour un effet de profondeur */
+}
+
+.project-content {
+    display: flex;                /* Utilisation de flexbox pour le contenu */
+    justify-content: space-between; /* Espace entre le contenu */
+    width: 100%;                 /* Prendre toute la largeur disponible */
+    max-width: 1200px;       
+}
+
+h1 {
+    font-size: 2rem;             /* Taille de la police pour le titre */
+    color: #003366;              /* Couleur du texte */
+    text-align: center;          /* Centrer le texte */
+    margin-bottom: 0;         /* Espacement en dessous du titre */
+}
+
+.tourniquet-container {
+    flex: 1;                     /* Permet à la zone de tourniquet d'utiliser l'espace restant */
+    display: flex;               /* Utilisation de flexbox */
+    flex-direction: column;      /* Orientation verticale pour les éléments */
+    align-items: center;         /* Centrer les éléments */
+}
+
+.project-content > * {
+    flex: 1;                     /* Permet aux enfants d'utiliser l'espace disponible */
+    margin: 0 10px;             /* Marges autour des éléments enfants */
+}
+
+@media (max-width: 768px) {
+    .project-content {
+        flex-direction: column;   /* Sur les écrans plus petits, empiler les éléments */
+        align-items: center;       /* Centrer les éléments */
+    }
+
+    .project-content > * {
+        margin: 10px 0;           /* Marges verticales pour un espacement approprié */
+    }
+}
+

@@ -1,0 +1,37 @@
+/* css/tourniquet.css */
+
+.tourniquet-container {
+    display: flex;
+    flex-direction: column; /* Changer la direction en colonne pour empiler les éléments */
+    align-items: center; /* Centrer les éléments horizontalement */
+    margin: 20px;
+}
+
+.tourniquet-image,
+.tourniquet-video { /* Ajout de la classe pour la vidéo */
+    width: 600px; /* Ajustez la largeur de l'image et de la vidéo */
+    height: 400px; /* Fixer une hauteur pour toutes les images et vidéos */
+    border-radius: 10px; /* Coins arrondis pour l'image et la vidéo */
+    object-fit: contain; /* Assurer que l'image et la vidéo sont redimensionnées sans être rognées */
+    transition: transform 0.3s ease; /* Transition pour l'effet de changement */
+}
+
+.arrow-container {
+    display: flex; /* Utiliser flex pour disposer les flèches */
+    justify-content: center; /* Centrer les flèches horizontalement */
+    margin-top: 10px; /* Espacement au-dessus des flèches */
+}
+
+.arrow-button {
+    background-color: transparent; /* Fond transparent pour les boutons */
+    border: none; /* Pas de bordure */
+    font-size: 24px; /* Taille de la police pour les flèches */
+    cursor: pointer; /* Changer le curseur au survol */
+    margin: 0 10px; /* Espacement autour des flèches */
+    padding: 10px; /* Espacement interne pour le clic */
+    color: #003366; /* Couleur des flèches */
+}
+
+.arrow-button:hover {
+    color: #005b99; /* Couleur au survol des flèches */
+}

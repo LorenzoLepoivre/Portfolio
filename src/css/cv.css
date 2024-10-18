@@ -1,0 +1,143 @@
+/* Style global */
+body {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    background-color: #f5f5f5;
+}
+
+/* Main container layout */
+.cv main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px; /* Optional: Limit the width for larger screens */
+    margin: 0 auto;
+    padding: 20px;
+    gap: 20px; /* Space between left and right sections */
+    flex-wrap: nowrap;
+}
+
+/* Left section */
+#left {
+    flex-grow: 1;
+    flex-basis: 25%;
+    background-color: #dff2ff;
+    padding: 1rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    height: fit-content;
+}
+
+/* Right section */
+#right {
+    flex-grow: 1;
+    flex-basis: 75%;
+    background-color: #fff;
+    padding: 1rem;
+    margin-left: 1%;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    height: fit-content;
+}
+
+/* Profile picture */
+#me {
+    display: flex;
+    justify-content: center;
+}
+
+#me img {
+    border-radius: 50%;
+    margin: 10px;
+    max-width: 10rem;
+    height: auto;
+}
+
+/* Print button */
+#print {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+#print button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* Contact icons */
+.imageBeforeText {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: -1rem;
+}
+
+#icons {
+    margin-top: -2%;
+}
+
+.icon {
+    max-width: 1.8rem;
+    max-height: 1.8rem;
+    margin-right: 0.5rem;
+}
+
+/* Typography */
+li, p {
+    font-size: 1.2rem;
+}
+
+h2 {
+    font-size: 1.7rem;
+    color: #333;
+    margin-bottom: 0rem;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #447596;
+}
+
+.subtitle {
+    font-weight: bold;
+}
+
+
+/* Responsive design for mobile */
+@media only screen and (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+
+    #left, #right {
+        flex-basis: 100%;
+        margin: 0;
+    }
+
+    li, p {
+        font-size: 1rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    .icon {
+        max-width: 1.4rem;
+        max-height: 1.4rem;
+    }
+
+    #print {
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+}
+

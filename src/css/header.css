@@ -1,0 +1,44 @@
+/* components/Header.css */
+
+.header {
+    background-color: #003366; /* Couleur de fond bleu foncé */
+    padding: 15px; /* Espacement interne */
+    color: white; /* Couleur du texte */
+}
+
+.header-container {
+    max-width: 1200px; /* Largeur maximale */
+    margin: 0 auto; /* Centrer le conteneur */
+    display: flex; /* Utiliser flexbox */
+    justify-content: space-between; /* Espace entre les éléments */
+    align-items: center; /* Aligner verticalement au centre */
+}
+
+.logo {
+    font-size: 1.5rem; /* Taille de la police pour le logo */
+    font-weight: bold; /* Mettre en gras */
+}
+
+nav {
+    flex-grow: 1; /* Permet au nav de prendre tout l'espace disponible */
+    text-align: center; /* Centrer le texte dans le nav */
+}
+
+.nav-links {
+    list-style: none; /* Supprimer les puces de la liste */
+    padding: 0; /* Supprimer le remplissage par défaut */
+    margin: 0; /* Supprimer la marge par défaut */
+    display: flex; /* Utiliser flexbox pour la disposition horizontale */
+    justify-content: center; /* Centrer les liens */
+}
+
+.nav-link {
+    color: white; /* Couleur du lien */
+    text-decoration: none; /* Pas de soulignement */
+    margin: 0 20px; /* Marge à droite et à gauche */
+    transition: color 0.3s; /* Transition douce pour le changement de couleur */
+}
+
+.nav-link:hover {
+    color: #FFD700; /* Couleur dorée au survol pour un bon contraste */
+}

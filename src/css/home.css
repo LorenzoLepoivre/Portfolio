@@ -3,7 +3,7 @@
 body {
     margin: 0;                  /* Supprime les marges par défaut du body */
     font-family: Arial, sans-serif; /* Police par défaut */
-    background-color: #f0f0f0; /* Couleur de fond douce */
+    background-color: #f0f0f0 !important; /* Couleur de fond douce */
 }
 
 main {
@@ -13,4 +13,8 @@ main {
     align-items: flex-start;    /* Aligner les projets en haut */
     flex-wrap: wrap;            /* Permet aux colonnes de passer à la ligne si nécessaire */
     padding: 20px;             /* Espacement autour des projets */
+}
+
+li, p, h2{
+    color : #000 !important;
 }

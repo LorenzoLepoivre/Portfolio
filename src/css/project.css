@@ -9,9 +9,9 @@
 
 .project{
     /* Espacement intérieur */
-    border: 1px solid #ddd;      /* Bordure légère pour le contenu */
+    border: 1px solid #ddd !important;      /* Bordure légère pour le contenu */
     border-radius: 10px;         /* Coins arrondis pour le conteneur */
-    background-color: #f9f9f9;   /* Couleur de fond légère */
+    background-color: #f9f9f9 !important;   /* Couleur de fond légère */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre douce pour un effet de profondeur */
 }
 
@@ -24,7 +24,7 @@
 
 h1 {
     font-size: 2rem;             /* Taille de la police pour le titre */
-    color: #003366;              /* Couleur du texte */
+    color: #003366 !important;              /* Couleur du texte */
     text-align: center;          /* Centrer le texte */
     margin-bottom: 0;         /* Espacement en dessous du titre */
 }
@@ -41,16 +41,10 @@ h1 {
     margin: 0 10px;             /* Marges autour des éléments enfants */
 }
 
-@media (max-width: 768px) {
-    .project-content {
-        flex-direction: column;   /* Sur les écrans plus petits, empiler les éléments */
-        align-items: center;       /* Centrer les éléments */
-    }
-
-    .project-content > * {
-        margin: 10px 0;           /* Marges verticales pour un espacement approprié */
-    }
+li, p, h2{
+    color : #000 !important;
 }
+
 
 @media (max-width: 768px) {
     h1 {
@@ -78,4 +72,9 @@ h1 {
     .apparition {
         margin: 10px;             /* Réduction de la marge pour s'adapter à l'écran */
     }
+
+    li, p, h2{
+        color : #000 !important;
+    }
+    
 }

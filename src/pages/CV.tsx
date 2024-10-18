@@ -86,7 +86,7 @@ function CV() {
             </ul>
           </section>
 
-          <div id="print">
+          <div id="print" className="no-mobile">
             <button id="btnPrint" onClick={imprimerSite}>Print Resume</button>
           </div>
         </div>

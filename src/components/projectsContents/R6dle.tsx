@@ -5,7 +5,7 @@ function R6DLE() {
         <p>It was built using React and Firebase</p>
         <a href="https://github.com/LorenzoLepoivre/R6ddle" target="_blank" className="imageBeforeText">
           <img className="icon" src="img/link_icon.jpg" alt="Link icon" />
-          <p>Check it out !</p>
+          <p>Github</p>
         </a>
       </div>
     );

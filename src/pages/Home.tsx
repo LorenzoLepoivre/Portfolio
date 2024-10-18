@@ -11,9 +11,9 @@ import '../css/home.css'; // Importer le fichier CSS avec le bon chemin
 function Home() {
   let imagesPortofolio = ["img/projects/portofolio/1.png"];
   let imagesMintFiesta = ["img/projects/mintFiesta/1.jpg","img/projects/mintFiesta/2.jpg","img/projects/mintFiesta/3.jpg","img/projects/mintFiesta/4.jpg","img/projects/mintFiesta/5.jpg","img/projects/mintFiesta/6.jpg"];
-  let r6dleVid = ["/vid/projects/r6dle/vid1.mp4"];
-  let darkAndLightVid = ["/vid/projects/darkAndLight/vid1.mp4"];
-  let suiBoxVid = ["/vid/projects/suiBox/vid1.mp4"];
+  let r6dleVid = ["https://youtu.be/GPMdjfOXNEc"];
+  let darkAndLightVid = ["https://youtu.be/T2Estex6_PI"];
+  let suiBoxVid = ["https://youtu.be/_gPPiQgrtyw"];
 
   return (
     <div>

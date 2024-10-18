@@ -16,15 +16,22 @@ function Tourniquet(props: any) {
         setCurrentIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length);
     };
 
+    const getYouTubeId = (url: string) => {
+        const regExp = /(?:youtube\.com\/(?:[^\/]+\/.+\/|(?:v|e(?:mbed)?)\/|.*[?&]v=)|youtu\.be\/)([^"&?\/\s]{11})/;
+        const match = url.match(regExp);
+        return match ? match[1] : null;
+    };
+
+
     return (
         <div className="tourniquet-container">
             {isVideo ? (
-                <video
-                    className="tourniquet-video"
-                    src={images[currentIndex]}
-                    controls
-                    autoPlay
-                    loop
+                 <iframe
+                 className="tourniquet-video"
+                 src={`https://www.youtube.com/embed/${getYouTubeId(images[currentIndex])}`}
+                 title="YouTube video player"
+                 allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                 allowFullScreen
                 />
             ) : (
                 <img src={images[currentIndex]} alt="Tourniquet" className="tourniquet-image" />

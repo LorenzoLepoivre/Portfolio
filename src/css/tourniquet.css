@@ -35,3 +35,25 @@
 .arrow-button:hover {
     color: #005b99; /* Couleur au survol des flèches */
 }
+
+/* Media Query pour les écrans de max-width: 768px */
+@media (max-width: 768px) {
+    .tourniquet-image,
+    .tourniquet-video {
+        width: 100%; /* Les images et vidéos prennent 100% de la largeur disponible */
+        height: auto; /* Laisser la hauteur s'ajuster automatiquement */
+    }
+
+    .tourniquet-container {
+        margin: 10px; /* Réduire les marges pour s'adapter aux petits écrans */
+    }
+
+    .arrow-button {
+        font-size: 20px; /* Réduire légèrement la taille des flèches sur mobile */
+        padding: 8px; /* Réduire le padding pour les petits écrans */
+    }
+
+    .arrow-container {
+        margin-top: 5px; /* Réduire l'espace entre le contenu et les flèches */
+    }
+}

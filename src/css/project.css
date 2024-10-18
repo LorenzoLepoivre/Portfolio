@@ -52,3 +52,30 @@ h1 {
     }
 }
 
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem;        /* Réduire la taille de la police pour les petits écrans */
+    }
+
+    .project {
+        margin: 10px;             /* Réduction des marges pour les petits écrans */
+        padding: 15px;            /* Plus d'espace intérieur pour compenser */
+    }
+
+    .project-content {
+        flex-direction: column;   /* Sur les écrans plus petits, empiler les éléments */
+        align-items: center;      /* Centrer les éléments */
+    }
+
+    .project-content > * {
+        margin: 10px 0;           /* Marges verticales pour espacement approprié */
+    }
+
+    .tourniquet-container {
+        margin-bottom: 0px;      /* Ajout d'espace en bas du tourniquet pour espacement */
+    }
+
+    .apparition {
+        margin: 10px;             /* Réduction de la marge pour s'adapter à l'écran */
+    }
+}

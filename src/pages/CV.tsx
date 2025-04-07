@@ -51,6 +51,7 @@ function CV() {
             <ul>
               <li>Python</li>
               <li>HTML/CSS, PHP</li>
+              <li>C#</li>
               <li>JavaScript, TypeScript</li>
               <li>Java</li>
               <li>SQL</li>
@@ -111,12 +112,13 @@ function CV() {
           <section>
             <h2>PROFESSIONAL EXPERIENCE</h2>
             <ul>
-              <li><span className="subtitle">July 2022–August 2022</span><br />Cleaning technician and reception agent - Vaccination Center (La Louvière)</li>
-              <li><span className="subtitle">August 2022–September 2022</span><br />Fast food employee - Belchicken (Mons, Grand-près)</li>
+              <li><span className="subtitle">July 2022 – August 2022</span><br />Cleaning technician and reception agent - Vaccination Center (La Louvière)</li>
+              <li><span className="subtitle">August 2022 – September 2022</span><br />Fast food employee - Belchicken (Mons, Grand-près)</li>
               <li><span className="subtitle">September 2023</span><br />Inventory and shelving - Intermarché (Mons)</li>
               <li><span className="subtitle">December 2023</span><br />Door-to-door sales - Atlas Sales Agency (Mons)</li>
-              <li><span className="subtitle">September 2023-June 2024</span><br />Programming tutor - Haute Ecole en Hainaut (Mons)</li>
-              <li><span className="subtitle">April 2024-Present</span><br />Teacher - Logiscool (Mons)</li>
+              <li><span className="subtitle">September 2023 - June 2024</span><br />Programming tutor - Haute Ecole en Hainaut (Mons)</li>
+              <li><span className="subtitle">April 2024 - Present</span><br />Teacher - Logiscool (Mons)</li>
+              <li><span className="subtitle">February 2025 - May 2025</span><br />Student Intern - Ingenum (Maisières)</li>
             </ul>
           </section>
 
@@ -138,6 +140,7 @@ function CV() {
             <li><span className="subtitle">Competitions</span></li>
               <ul>
               <li>UMons, 2023 CPUMons algorithm contest</li>
+              <li>HEH, 2024 Winner of the COCO Challenge</li>
               </ul>
             </ul>
           </section>

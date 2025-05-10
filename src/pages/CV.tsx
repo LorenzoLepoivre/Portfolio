@@ -16,10 +16,11 @@ function CV() {
       </div>
       <main>
         <div id="left">
+          {1 === 2 && (
           <div id="me">
             <img src="img/me.jpg" alt="Photo of the site creator" />
           </div>
-
+        )}
           <section className="has_border">
             <h2>CONTACT DETAILS</h2>
             <div id="icons">
@@ -97,7 +98,7 @@ function CV() {
 
           <section>
             <h2>INTRODUCTION</h2>
-            <p>As a student in computer science and telecommunications, I specialize in development. Passionate about programming in all its forms, I strive to explore and master various languages and technologies. My main goal is to secure an end-of-studies internship in a stimulating environment where I can apply my skills, learn more, and make a significant contribution.</p>
+            <p>As a student in computer science and telecommunications, I specialize in development. Passionate about programming in all its forms, I strive to explore and master various languages and technologies.</p>
           </section>
 
           <section>

@@ -16,11 +16,6 @@ function CV() {
       </div>
       <main>
         <div id="left">
-          {1 === 2 && (
-          <div id="me">
-            <img src="img/me.jpg" alt="Photo of the site creator" />
-          </div>
-        )}
           <section className="has_border">
             <h2>CONTACT DETAILS</h2>
             <div id="icons">

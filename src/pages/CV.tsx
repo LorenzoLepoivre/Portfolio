@@ -43,23 +43,24 @@ function CV() {
           </section>
 
           <section className="has_border">
-            <h2>PROGRAMMING LANGUAGES</h2>
+            <h2>LANGUAGES / FRAMEWORKS</h2>
             <ul>
               <li>Python</li>
-              <li>HTML/CSS, PHP</li>
-              <li>C#</li>
-              <li>JavaScript, TypeScript</li>
-              <li>Java</li>
+              <li>HTML/CSS</li>
+              <li>PHP</li>
+              <li>React (JavaScript, TypeScript)</li>
+              <li>Spring (Java)</li>
+              <li>Entity Framework (.NET, C#)</li>
               <li>SQL</li>
             </ul>
           </section>
 
           <section className="has_border">
-            <h2>SOFTWARE PROFICIENCY</h2>
+            <h2>ADDITIONAL SKILLS</h2>
             <ul>
               <li>Cisco Packet Tracer</li>
               <li>Git</li>
-              <li>PCB and electrical circuit design software (EasyEDA, Eagle, TinkerCAD, MultiSIM)</li>
+              <li>Scrum</li>
               <li>Game engines (Unity, Unreal Engine, Godot)</li>
               <li>Microcomputer usage (Arduino, Raspberry Pi)</li>
             </ul>
@@ -90,11 +91,6 @@ function CV() {
 
         <div id="right">
           <h1>Lorenzo Lepoivre</h1>
-
-          <section>
-            <h2>INTRODUCTION</h2>
-            <p>As a student in computer science and telecommunications, I specialize in development. Passionate about programming in all its forms, I strive to explore and master various languages and technologies.</p>
-          </section>
 
           <section>
             <h2>EDUCATION</h2>

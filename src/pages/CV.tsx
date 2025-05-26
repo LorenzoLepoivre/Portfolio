@@ -120,7 +120,7 @@ function CV() {
             <li><span className="subtitle">Clubs</span></li>
               <ul>
               <li>Google Developer Student Club, member of the Mons club from September 2023 to September 2024</li>
-              <li><a href="https://kryptosphere.org/belgium/" target="_blank">Kryptosphere Belgium</a>, founding member and head of editorial at Ks Belgium since March 2024</li>
+              <li>Kryptosphere Belgium, founding member and head of editorial at Ks Belgium since March 2024</li>
               </ul>
             <li><span className="subtitle">Hackathons</span></li>
             <ul>

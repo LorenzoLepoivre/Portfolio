@@ -93,6 +93,10 @@ function CV() {
           <h1>Lorenzo Lepoivre</h1>
 
           <section>
+            <p>Hello, I’m Lorenzo, a 22-year-old recent graduate with a bachelor's degree in development, currently looking for my first job as a developer</p>
+          </section>
+          
+          <section>
             <h2>EDUCATION</h2>
             <ul>
               <li><span className="subtitle">Institut Saint-Ferdinand, Jemappes (High School)</span><br />CESS, mathematics orientation</li>

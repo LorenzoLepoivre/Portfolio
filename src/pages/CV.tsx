@@ -17,25 +17,25 @@ function CV() {
       <main>
         <div id="left">
           <section className="has_border">
-            <h2>CONTACT DETAILS</h2>
+            <h2>COORDONNÉES</h2>
             <div id="icons">
               <div className="imageBeforeText">
-                <img className="icon" src="img/icon/house.png" alt="House icon" />
-                <p>7033 Cuesmes, Belgium</p>
+                <img className="icon" src="img/icon/house.png" alt="Icône maison" />
+                <p>7033 Cuesmes, Belgique</p>
               </div>
               <div className="imageBeforeText">
-                <img className="icon" src="img/icon/mail.png" alt="Mail icon" />
+                <img className="icon" src="img/icon/mail.png" alt="Icône mail" />
                 <p>lorenzo.lepoivre@gmail.com</p>
               </div>
               <div className="imageBeforeText">
-                <img className="icon" src="img/icon/linkedin.png" alt="LinkedIn icon" />
-                <a href="https://www.linkedin.com/in/lorenzo-lepoivre/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">
+                <img className="icon" src="img/icon/linkedin.png" alt="Icône LinkedIn" />
+                <a href="https://www.linkedin.com/in/lorenzo-lepoivre/" target="_blank" rel="noopener noreferrer" aria-label="Profil LinkedIn">
                   <p>lorenzo-lepoivre</p>
                 </a>
               </div>
               <div className="imageBeforeText">
-                <img className="icon" src="img/icon/github.png" alt="Github icon" />
-                <a href="https://github.com/LorenzoLepoivre" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">
+                <img className="icon" src="img/icon/github.png" alt="Icône GitHub" />
+                <a href="https://github.com/LorenzoLepoivre" target="_blank" rel="noopener noreferrer" aria-label="Profil GitHub">
                   <p>LorenzoLepoivre</p>
                 </a>
               </div>
@@ -43,7 +43,7 @@ function CV() {
           </section>
 
           <section className="has_border">
-            <h2>LANGUAGES / FRAMEWORKS</h2>
+            <h2>LANGAGES / FRAMEWORKS</h2>
             <ul>
               <li>Python</li>
               <li>HTML/CSS</li>
@@ -56,36 +56,35 @@ function CV() {
           </section>
 
           <section className="has_border">
-            <h2>ADDITIONAL SKILLS</h2>
+            <h2>COMPÉTENCES COMPLÉMENTAIRES</h2>
             <ul>
               <li>Cisco Packet Tracer</li>
               <li>Git</li>
               <li>Scrum</li>
-              <li>Game engines (Unity, Unreal Engine, Godot)</li>
-              <li>Microcomputer usage (Arduino, Raspberry Pi)</li>
+              <li>Moteurs de jeu (Unity, Unreal Engine, Godot)</li>
+              <li>Utilisation de micro-ordinateurs (Arduino, Raspberry Pi)</li>
             </ul>
           </section>
 
           <section className="has_border">
-            <h2>LANGUAGES</h2>
+            <h2>LANGUES</h2>
             <ul>
-              <li>French (native language)</li>
-              <li>English</li>
+              <li>Français (langue maternelle)</li>
+              <li>Anglais</li>
             </ul>
           </section>
 
           <section className="has_border">
-            <h2>HOBBIES</h2>
+            <h2>LOISIRS</h2>
             <ul>
-              <li>Video games and board games</li>
-              <li>Cinema</li>
-              <li>History</li>
-              <li>Politics and philosophy</li>
+              <li>Jeux vidéo et jeux de société</li>
+              <li>Cinéma</li>
+              <li>Histoire</li>
             </ul>
           </section>
 
           <div id="print" className="no-mobile">
-            <button id="btnPrint" onClick={imprimerSite}>Print Resume</button>
+            <button id="btnPrint" onClick={imprimerSite}>Imprimer le CV</button>
           </div>
         </div>
 
@@ -93,50 +92,50 @@ function CV() {
           <h1>Lorenzo Lepoivre</h1>
 
           <section>
-            <p>Hello, I’m Lorenzo, a 22-year-old recent graduate with a bachelor's degree in development, currently looking for my first job as a developer</p>
+            <p>Bonjour, je m'appelle Lorenzo, j'ai 22 ans, récemment diplômé d’un bachelier en développement. Je suis actuellement à la recherche de mon premier emploi en tant que développeur.</p>
           </section>
           
           <section>
-            <h2>EDUCATION</h2>
+            <h2>FORMATION</h2>
             <ul>
-              <li><span className="subtitle">Institut Saint-Ferdinand, Jemappes (High School)</span><br />CESS, mathematics orientation</li>
-              <li><span className="subtitle">UMONS, Mons (2021-2022)</span><br />Bachelor in Computer Science</li>
-              <li><span className="subtitle">HEH Department of Science and Technology (2022-present)</span><br />Bachelor in Computer Science, telecommunication and networks orientation, development option</li>
+              <li><span className="subtitle">Institut Saint-Ferdinand, Jemappes (Secondaire)</span><br />CESS, option math forte</li>
+              <li><span className="subtitle">UMONS, Mons (2021-2022)</span><br />Bachelier en Informatique</li>
+              <li><span className="subtitle">HEH Département des Sciences et Technologies (2022 - aujourd’hui)</span><br />Bachelier en Informatique, orientation télécommunication et réseaux, option développement</li>
             </ul>
           </section>
 
           <section>
-            <h2>PROFESSIONAL EXPERIENCE</h2>
+            <h2>EXPÉRIENCE PROFESSIONNELLE</h2>
             <ul>
-              <li><span className="subtitle">July 2022 – August 2022</span><br />Cleaning technician and reception agent - Vaccination Center (La Louvière)</li>
-              <li><span className="subtitle">August 2022 – September 2022</span><br />Fast food employee - Belchicken (Mons, Grand-près)</li>
-              <li><span className="subtitle">September 2023</span><br />Inventory and shelving - Intermarché (Mons)</li>
-              <li><span className="subtitle">December 2023</span><br />Door-to-door sales - Atlas Sales Agency (Mons)</li>
-              <li><span className="subtitle">September 2023 - June 2024</span><br />Programming tutor - Haute Ecole en Hainaut (Mons)</li>
-              <li><span className="subtitle">April 2024 - Present</span><br />Teacher - Logiscool (Mons)</li>
-              <li><span className="subtitle">February 2025 - May 2025</span><br />Student Intern - Ingenum (Maisières)</li>
+              <li><span className="subtitle">Juillet 2022 – Août 2022</span><br />Technicien de surface et agent d’accueil - Centre de vaccination (La Louvière)</li>
+              <li><span className="subtitle">Août 2022 – Septembre 2022</span><br />Employé en restauration rapide - Belchicken (Mons, Grand-Près)</li>
+              <li><span className="subtitle">Septembre 2023</span><br />Inventaire et réassort - Intermarché (Mons)</li>
+              <li><span className="subtitle">Décembre 2023</span><br />Vente en porte-à-porte - Atlas Sales Agency (Mons)</li>
+              <li><span className="subtitle">Septembre 2023 - Juin 2024</span><br />Tuteur en programmation - Haute École en Hainaut (Mons)</li>
+              <li><span className="subtitle">Avril 2024 - Aujourd’hui</span><br />Enseignant - Logiscool (Mons)</li>
+              <li><span className="subtitle">Février 2025 - Mai 2025</span><br />Stagiaire étudiant - Ingenum (Maisières)</li>
             </ul>
           </section>
 
           <section>
-            <h2>COMPUTER SCIENCE EXPERIENCE</h2>
+            <h2>EXPÉRIENCE EN INFORMATIQUE</h2>
             <ul>
-            <li><span className="subtitle">Clubs</span></li>
+              <li><span className="subtitle">Clubs</span></li>
               <ul>
-              <li>Google Developer Student Club, member of the Mons club from September 2023 to September 2024</li>
-              <li>Kryptosphere Belgium, founding member and head of editorial at Ks Belgium since March 2024</li>
+                <li>Google Developer Student Club, membre du club de Mons de septembre 2023 à septembre 2024</li>
+                <li>Kryptosphere Belgium, membre fondateur et responsable éditorial de Ks Belgium depuis mars 2024</li>
               </ul>
-            <li><span className="subtitle">Hackathons</span></li>
-            <ul>
-              <li>UNamur, 2022 and 2023 editions of the CSLabs Hackathon</li>
-              <li>ETHGlobal Amsterdam 2024</li>
-              <li>ETHGlobal Brussels 2024</li>
-              <li>EPFL Lausanne, 2024 SUI x BSA Student Hackathon</li>
-            </ul>
-            <li><span className="subtitle">Competitions</span></li>
+              <li><span className="subtitle">Hackathons</span></li>
               <ul>
-              <li>UMons, 2023 CPUMons algorithm contest</li>
-              <li>HEH, 2024 Winner of the COCO Challenge</li>
+                <li>UNamur, éditions 2022 et 2023 du Hackathon CSLabs</li>
+                <li>ETHGlobal Amsterdam 2024</li>
+                <li>ETHGlobal Bruxelles 2024</li>
+                <li>EPFL Lausanne, Student Hackathon SUI x BSA 2024</li>
+              </ul>
+              <li><span className="subtitle">Compétitions</span></li>
+              <ul>
+                <li>UMons, concours d’algorithmes CPUMons 2023</li>
+                <li>HEH, gagnant du COCO Challenge 2024</li>
               </ul>
             </ul>
           </section>

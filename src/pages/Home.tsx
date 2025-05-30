@@ -19,12 +19,6 @@ function Home() {
     <div>
       <Header />
       <main>
-        <Project
-          titre="Portfolio"
-          dispo="left"
-          tourniquet={<Tourniquet images={imagesPortofolio} isVideo={false} />}
-          projectCont={<Portofolio />}
-        />
 
         <Project
           titre="MintyFiesta"

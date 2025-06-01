@@ -109,7 +109,6 @@ function CV() {
             <ul>
               <li><span className="subtitle">Juillet 2022 – Août 2022</span><br />Technicien de surface et agent d’accueil - Centre de vaccination (La Louvière)</li>
               <li><span className="subtitle">Août 2022 – Septembre 2022</span><br />Employé en restauration rapide - Belchicken (Mons, Grand-Près)</li>
-              <li><span className="subtitle">Septembre 2023</span><br />Inventaire et réassort - Intermarché (Mons)</li>
               <li><span className="subtitle">Décembre 2023</span><br />Vente en porte-à-porte - Atlas Sales Agency (Mons)</li>
               <li><span className="subtitle">Septembre 2023 - Juin 2024</span><br />Tuteur en programmation - Haute École en Hainaut (Mons)</li>
               <li><span className="subtitle">Avril 2024 - Aujourd’hui</span><br />Enseignant - Logiscool (Mons)</li>

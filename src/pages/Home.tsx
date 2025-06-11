@@ -8,6 +8,7 @@ import SuiBox from '../components/projectsContents/SuiBox';
 import '../css/home.css';
 
 function Home() {
+  let imagesMyIngenum = ["img/projects/myingenum/1.png","img/projects/myingenum/2.png","img/projects/myingenum/3.png","img/projects/myingenum/4.png","img/projects/myingenum/5.png","img/projects/myingenum/6.png","img/projects/myingenum/7.png"];
   let imagesMintFiesta = ["img/projects/mintFiesta/1.jpg","img/projects/mintFiesta/2.jpg","img/projects/mintFiesta/3.jpg","img/projects/mintFiesta/4.jpg","img/projects/mintFiesta/5.jpg","img/projects/mintFiesta/6.jpg"];
   let r6dleVid = ["https://youtu.be/GPMdjfOXNEc"];
   let darkAndLightVid = ["https://youtu.be/T2Estex6_PI"];
@@ -17,6 +18,13 @@ function Home() {
     <div>
       <Header />
       <main>
+
+        <Project
+          titre="MyIngenum"
+          dispo="left"
+          tourniquet={<Tourniquet images={imagesMyIngenum} isVideo={false} />}
+          projectCont={<MintFiesta />}
+        />
 
         <Project
           titre="MintyFiesta"
